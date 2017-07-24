@@ -1,7 +1,6 @@
-#============================================================================================================
 Mirror_sample
-
-env.:
+	
+	env.:
 	Windows:
 	1. use ".bat" file to generate picture name file
 	2. 180.cpp will read new.txt picture name file to get picture and mirror it and save
@@ -12,14 +11,13 @@ env.:
 	2. 180.cpp will read new.txt picture name file to get picture and mirror it and save
 	3. new picture save to same dir. with source picture
 
-essential:
+	essential:
 	1. Windows and Linux must have install opencv can use
 	2. According to different picture dir. user must change "file.sh or file.bat" let file path is right
-#============================================================================================================
-#============================================================================================================
+
 Sample_stream
 
-env.:
+	env.:
 	Windows:
 	1. NO support (想要自己改)
 
@@ -28,7 +26,7 @@ env.:
 	2. Sample_steam.cpp will read new.txt sample name file to get picture and link every sample to "sample_stream.yuv"
 	3. Can change wsize & hsize output file size will change
 
-essential:
+	essential:
 	1. Windows and Linux must have install opencv can use
 	2. According to different picture dir. user must change "file.sh or file.bat" let file path is right
-#============================================================================================================
+
